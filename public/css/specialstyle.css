@@ -1,0 +1,25 @@
+{* margin 0; padding 0}
+.maincontent{background: URL(../images/banner3.jpg);}
+.maincontent input:hover{cursor: pointer; box-shadow:5px 7px 5px 5px wheat;color: whitesmoke;}
+.maincontent input{margin: 93px;
+    font-size: xx-large;
+    padding: 17px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    radious: 92px;
+    border-radius: 26px;
+    color: #000;
+    background-color: #4A7B9C;
+    
+}
+.maincontent a{
+    text-decoration: none;   
+}
+table{
+    background-color: darkgray;
+}
+form{
+    max-width: inherit;
+}
