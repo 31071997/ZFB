@@ -65,8 +65,10 @@ class appController extends Controller
     }
     public function GetCard()
     {
-        return view('html.card');
+        $cards =  ProgrammingCv::all();
+        return view('html.card', ['cards'=>$cards]);
     }
+
     public function GetContact()
     {
         return view('html.contact');
