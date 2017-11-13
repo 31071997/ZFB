@@ -94,7 +94,7 @@
             </tr>   
 
             </table>
-             <a href="/circular/ViewCircular/InterviewCard"><button style="background: green; width: 200px; height: 30px; color: white; border: none; border-radius: 8px;">Accepted</button></a>
+             <a href="/circular/ViewCircular/InterviewCard" text-decoration="none"><button style="background: green; width: 200px; height: 30px; color: white; border: none; border-radius: 8px;">Accepted</button></a>
             <button style="background: darkred; width: 200px; height: 30px; color: white; border: none; border-radius: 8px;"">Not Accepted</button>
         </fieldset>
 
