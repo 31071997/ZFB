@@ -12,7 +12,7 @@
 		}
 	</script>
 	<div>
-@foreach($card as $card)
+@foreach($cards as $card)
 	<p>{{ $programmingCv->first_name }}{{ $programmingCv->last_name }} you are selected as a candidate for the post of {{ $programmingCv->select_post }}. please be present in your interview with a print of this card.
     <hr></p> 
     <button onclick="printer()">print</button>
